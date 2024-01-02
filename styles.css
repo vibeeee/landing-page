@@ -70,3 +70,25 @@ h1 {
     height: 30px;
     border-radius: 10px;
 }
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.info-images-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    gap: 0 62px;
+}
+
+.info-image {
+    display: flex;
+    flex-basis: 5%;
+    flex-direction: column;
+}
