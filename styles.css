@@ -161,6 +161,18 @@ h3 {
     border: 2px solid white;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    margin: 32px;
+}
+
 /* .sign-up-section {
     display: flex;
     justify-content: center;
