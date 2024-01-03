@@ -36,7 +36,7 @@ ul {
     gap: 0px 32px;
 }
 
-.header-link {
+.header-link, .blue-box-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -65,13 +65,14 @@ h1 {
 
 .sign-up-header {
     background-color: #3882F6;
+    font-weight: bolder;
     color: white;
     width: 100px;
     height: 30px;
     border-radius: 10px;
 }
 
-.info-title {
+h2 {
     display: flex;
     justify-content: center;
     font-size: 32px;
@@ -89,6 +90,111 @@ h1 {
 
 .info-image {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     flex-basis: 5%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 64px 0;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    margin-right: 40px;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 128px;
+    width: 64%;
+    margin: 64px;
+}
+
+.blue-box-content {
+    display: flex;
+    align-items: center;
+    gap: 0 120px;
+}
+
+h3, .blue-box-secondary {
+    margin: 0;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.blue-box-content .sign-up-header {
+    border: 2px solid white;
+}
+
+/* .sign-up-section {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 64px;
+    height: 120px;
+    width: 70%;
+    gap: 0 128px;
+}
+
+.call-to-action-text {
+    display: flex;
     flex-direction: column;
 }
+
+h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.call-to-action-text .header-link {
+    margin-top: 0px;
+}
+
+.call-to-action .sign-up-header {
+    border: 2px solid white;
+    margin-bottom: 0px;
+} */
